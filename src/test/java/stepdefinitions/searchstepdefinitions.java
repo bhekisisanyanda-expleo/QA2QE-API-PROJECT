@@ -56,7 +56,7 @@ public class searchstepdefinitions
     }
 
     @Given("enters a product name in the search field")
-    public void enters_a_product_name_in_the_search_filed()
+    public void enters_a_product_name_in_the_search_field()
     {
         // Write code here that turns the phrase above into concrete actions
         headers.put("Content-Type", "application/json");
